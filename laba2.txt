@@ -1,0 +1,239 @@
+23:30:27.294403 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 172.25.210.29 tell 172.25.210.254, length 46
+23:30:27.865336 IP (tos 0x0, ttl 64, id 55166, offset 0, flags [DF], proto UDP (17), length 72)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 59826+ PTR? 29.210.25.172.in-addr.arpa. (44)
+23:30:27.874276 IP (tos 0x0, ttl 62, id 60333, offset 0, flags [none], proto UDP (17), length 107)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 59826 NXDomain* 0/1/0 (79)
+23:30:27.991018 IP (tos 0x0, ttl 1, id 54655, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.54256 > 172.25.210.29.hostmon: Flags [S], cksum 0x5a90 (correct), seq 2074694895, win 29200, options [mss 1460,sackOK,TS val 1278352 ecr 0,nop,wscale 7], length 0
+23:30:27.993302 IP (tos 0xc0, ttl 64, id 5420, offset 0, flags [none], proto ICMP (1), length 88)
+    gateway > maks-Lenovo-IdeaPad-Z510: ICMP time exceeded in-transit, length 68
+	IP (tos 0x0, ttl 1, id 54655, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.54256 > 172.25.210.29.hostmon: Flags [S], cksum 0x5a90 (correct), seq 2074694895, win 29200, options [mss 1460,sackOK,TS val 1278352 ecr 0,nop,wscale 7], length 0
+23:30:27.997219 IP (tos 0x0, ttl 64, id 55179, offset 0, flags [DF], proto UDP (17), length 73)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 19120+ PTR? 254.210.25.172.in-addr.arpa. (45)
+23:30:28.002210 IP (tos 0x0, ttl 62, id 60334, offset 0, flags [none], proto UDP (17), length 108)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 19120 NXDomain* 0/1/0 (80)
+23:30:28.002485 IP (tos 0x0, ttl 1, id 18326, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.32888 > 172.25.210.254.hostmon: Flags [S], cksum 0x47e4 (correct), seq 1876149765, win 29200, options [mss 1460,sackOK,TS val 1278355 ecr 0,nop,wscale 7], length 0
+23:30:28.004281 IP (tos 0xc0, ttl 64, id 5421, offset 0, flags [none], proto ICMP (1), length 88)
+    gateway > maks-Lenovo-IdeaPad-Z510: ICMP time exceeded in-transit, length 68
+	IP (tos 0x0, ttl 1, id 18326, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.32888 > 172.25.210.254.hostmon: Flags [S], cksum 0x47e4 (correct), seq 1876149765, win 29200, options [mss 1460,sackOK,TS val 1278355 ecr 0,nop,wscale 7], length 0
+23:30:28.326898 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 172.25.170.254 tell 172.25.170.208, length 46
+23:30:28.326909 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 172.25.210.29 tell 172.25.210.254, length 46
+23:30:28.424503 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 172.25.208.206 tell 172.25.208.254, length 46
+23:30:28.890230 IP (tos 0x0, ttl 64, id 55345, offset 0, flags [DF], proto UDP (17), length 70)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 33436+ PTR? 1.1.168.192.in-addr.arpa. (42)
+23:30:28.896419 IP (tos 0x0, ttl 62, id 60333, offset 0, flags [none], proto UDP (17), length 105)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 33436 NXDomain* 0/1/0 (77)
+23:30:28.994576 IP (tos 0x0, ttl 1, id 65321, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.59156 > gateway.hostmon: Flags [S], cksum 0x46a2 (correct), seq 257129890, win 29200, options [mss 1460,sackOK,TS val 1278603 ecr 0,nop,wscale 7], length 0
+23:30:28.996434 IP (tos 0x0, ttl 64, id 177, offset 0, flags [DF], proto TCP (6), length 40)
+    gateway.hostmon > maks-Lenovo-IdeaPad-Z510.59156: Flags [R.], cksum 0xa320 (correct), seq 0, ack 257129891, win 0, length 0
+23:30:28.999345 IP (tos 0x0, ttl 64, id 55368, offset 0, flags [DF], proto UDP (17), length 72)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 2367+ PTR? 104.1.168.192.in-addr.arpa. (44)
+23:30:29.000879 IP (tos 0x0, ttl 64, id 55369, offset 0, flags [DF], proto UDP (17), length 73)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 54266+ PTR? 254.170.25.172.in-addr.arpa. (45)
+23:30:29.008537 IP (tos 0x0, ttl 62, id 60333, offset 0, flags [none], proto UDP (17), length 107)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 2367 NXDomain* 0/1/0 (79)
+23:30:29.010338 IP (tos 0x0, ttl 62, id 60334, offset 0, flags [none], proto UDP (17), length 108)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 54266 NXDomain* 0/1/0 (80)
+23:30:29.179933 IP (tos 0x0, ttl 1, id 59797, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.39272 > 172.25.170.254.hostmon: Flags [S], cksum 0xdb91 (correct), seq 1156148012, win 29200, options [mss 1460,sackOK,TS val 1278649 ecr 0,nop,wscale 7], length 0
+23:30:29.185764 IP (tos 0xc0, ttl 64, id 5422, offset 0, flags [none], proto ICMP (1), length 88)
+    gateway > maks-Lenovo-IdeaPad-Z510: ICMP time exceeded in-transit, length 68
+	IP (tos 0x0, ttl 1, id 59797, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.39272 > 172.25.170.254.hostmon: Flags [S], cksum 0xdb91 (correct), seq 1156148012, win 29200, options [mss 1460,sackOK,TS val 1278649 ecr 0,nop,wscale 7], length 0
+23:30:29.190061 IP (tos 0x0, ttl 64, id 55400, offset 0, flags [DF], proto UDP (17), length 73)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 65394+ PTR? 208.170.25.172.in-addr.arpa. (45)
+23:30:29.193919 IP (tos 0x0, ttl 62, id 60335, offset 0, flags [none], proto UDP (17), length 108)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 65394 NXDomain* 0/1/0 (80)
+23:30:29.244560 IP (tos 0x0, ttl 1, id 29698, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.37828 > 172.25.170.208.hostmon: Flags [S], cksum 0x2425 (correct), seq 1987638987, win 29200, options [mss 1460,sackOK,TS val 1278665 ecr 0,nop,wscale 7], length 0
+23:30:29.250321 IP (tos 0xc0, ttl 64, id 5423, offset 0, flags [none], proto ICMP (1), length 88)
+    gateway > maks-Lenovo-IdeaPad-Z510: ICMP time exceeded in-transit, length 68
+	IP (tos 0x0, ttl 1, id 29698, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.37828 > 172.25.170.208.hostmon: Flags [S], cksum 0x2425 (correct), seq 1987638987, win 29200, options [mss 1460,sackOK,TS val 1278665 ecr 0,nop,wscale 7], length 0
+23:30:29.254662 IP (tos 0x0, ttl 64, id 55401, offset 0, flags [DF], proto UDP (17), length 73)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 44700+ PTR? 206.208.25.172.in-addr.arpa. (45)
+23:30:29.259073 IP (tos 0x0, ttl 62, id 60336, offset 0, flags [none], proto UDP (17), length 108)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 44700 NXDomain* 0/1/0 (80)
+23:30:29.346279 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 172.25.209.254 tell 172.25.209.1, length 46
+23:30:29.443395 IP (tos 0x0, ttl 1, id 49682, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.47718 > 172.25.208.206.hostmon: Flags [S], cksum 0xa4c2 (correct), seq 1592475881, win 29200, options [mss 1460,sackOK,TS val 1278715 ecr 0,nop,wscale 7], length 0
+23:30:29.445158 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 172.25.208.206 tell 172.25.208.254, length 46
+23:30:29.445584 IP (tos 0xc0, ttl 64, id 5424, offset 0, flags [none], proto ICMP (1), length 88)
+    gateway > maks-Lenovo-IdeaPad-Z510: ICMP time exceeded in-transit, length 68
+	IP (tos 0x0, ttl 1, id 49682, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.47718 > 172.25.208.206.hostmon: Flags [S], cksum 0xa4c2 (correct), seq 1592475881, win 29200, options [mss 1460,sackOK,TS val 1278715 ecr 0,nop,wscale 7], length 0
+23:30:29.448471 IP (tos 0x0, ttl 64, id 55406, offset 0, flags [DF], proto UDP (17), length 73)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 37626+ PTR? 254.208.25.172.in-addr.arpa. (45)
+23:30:29.457072 IP (tos 0x0, ttl 62, id 60337, offset 0, flags [none], proto UDP (17), length 108)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 37626 NXDomain* 0/1/0 (80)
+23:30:29.494495 IP (tos 0x0, ttl 1, id 8070, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.46012 > 172.25.208.254.hostmon: Flags [S], cksum 0x559d (correct), seq 1490590862, win 29200, options [mss 1460,sackOK,TS val 1278728 ecr 0,nop,wscale 7], length 0
+23:30:29.495977 IP (tos 0xc0, ttl 64, id 5425, offset 0, flags [none], proto ICMP (1), length 88)
+    gateway > maks-Lenovo-IdeaPad-Z510: ICMP time exceeded in-transit, length 68
+	IP (tos 0x0, ttl 1, id 8070, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.46012 > 172.25.208.254.hostmon: Flags [S], cksum 0x559d (correct), seq 1490590862, win 29200, options [mss 1460,sackOK,TS val 1278728 ecr 0,nop,wscale 7], length 0
+23:30:29.862164 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 172.25.191.254 tell 172.25.191.1, length 46
+23:30:29.911939 IP (tos 0x0, ttl 64, id 55482, offset 0, flags [DF], proto UDP (17), length 73)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 9042+ PTR? 254.209.25.172.in-addr.arpa. (45)
+23:30:29.916822 IP (tos 0x0, ttl 62, id 60333, offset 0, flags [none], proto UDP (17), length 108)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 9042 NXDomain* 0/1/0 (80)
+23:30:29.994521 IP (tos 0x0, ttl 1, id 38505, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.53926 > 172.25.209.254.hostmon: Flags [S], cksum 0x1787 (correct), seq 4247328236, win 29200, options [mss 1460,sackOK,TS val 1278853 ecr 0,nop,wscale 7], length 0
+23:30:29.996041 IP (tos 0xc0, ttl 64, id 5426, offset 0, flags [none], proto ICMP (1), length 88)
+    gateway > maks-Lenovo-IdeaPad-Z510: ICMP time exceeded in-transit, length 68
+	IP (tos 0x0, ttl 1, id 38505, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.53926 > 172.25.209.254.hostmon: Flags [S], cksum 0x1787 (correct), seq 4247328236, win 29200, options [mss 1460,sackOK,TS val 1278853 ecr 0,nop,wscale 7], length 0
+23:30:29.997942 IP (tos 0x0, ttl 64, id 55485, offset 0, flags [DF], proto UDP (17), length 71)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 43547+ PTR? 1.209.25.172.in-addr.arpa. (43)
+23:30:30.001605 IP (tos 0x0, ttl 62, id 60334, offset 0, flags [none], proto UDP (17), length 106)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 43547 NXDomain* 0/1/0 (78)
+23:30:30.169125 IP (tos 0x0, ttl 1, id 17834, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.49968 > 172.25.209.1.hostmon: Flags [S], cksum 0x124c (correct), seq 1652475418, win 29200, options [mss 1460,sackOK,TS val 1278896 ecr 0,nop,wscale 7], length 0
+23:30:30.170657 IP (tos 0xc0, ttl 64, id 5427, offset 0, flags [none], proto ICMP (1), length 88)
+    gateway > maks-Lenovo-IdeaPad-Z510: ICMP time exceeded in-transit, length 68
+	IP (tos 0x0, ttl 1, id 17834, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.49968 > 172.25.209.1.hostmon: Flags [S], cksum 0x124c (correct), seq 1652475418, win 29200, options [mss 1460,sackOK,TS val 1278896 ecr 0,nop,wscale 7], length 0
+23:30:30.173476 IP (tos 0x0, ttl 64, id 55519, offset 0, flags [DF], proto UDP (17), length 73)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 18789+ PTR? 254.191.25.172.in-addr.arpa. (45)
+23:30:30.184121 IP (tos 0x0, ttl 62, id 60333, offset 0, flags [none], proto UDP (17), length 108)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 18789 NXDomain* 0/1/0 (80)
+23:30:30.348408 IP (tos 0x0, ttl 1, id 32878, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.60620 > 172.25.191.254.hostmon: Flags [S], cksum 0xb4de (correct), seq 1770849203, win 29200, options [mss 1460,sackOK,TS val 1278941 ecr 0,nop,wscale 7], length 0
+23:30:30.366188 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 78)
+    192.168.1.100.netbios-ns > 192.168.1.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+23:30:30.476627 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 172.25.208.206 tell 172.25.208.254, length 46
+23:30:30.498459 IP (tos 0x0, ttl 64, id 55559, offset 0, flags [DF], proto UDP (17), length 71)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 23403+ PTR? 1.191.25.172.in-addr.arpa. (43)
+23:30:30.503452 IP (tos 0x0, ttl 62, id 60333, offset 0, flags [none], proto UDP (17), length 106)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 23403 NXDomain* 0/1/0 (78)
+23:30:30.575073 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 192.168.1.105 tell 192.168.1.102, length 46
+23:30:30.690896 IP (tos 0x0, ttl 1, id 15254, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.55656 > 172.25.191.1.hostmon: Flags [S], cksum 0x650d (correct), seq 293060517, win 29200, options [mss 1460,sackOK,TS val 1279027 ecr 0,nop,wscale 7], length 0
+23:30:30.997218 IP (tos 0x0, ttl 64, id 55607, offset 0, flags [DF], proto UDP (17), length 72)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 26743+ PTR? 255.1.168.192.in-addr.arpa. (44)
+23:30:31.002020 IP (tos 0x0, ttl 62, id 60334, offset 0, flags [none], proto UDP (17), length 107)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 26743 NXDomain* 0/1/0 (79)
+23:30:31.200790 IP (tos 0x0, ttl 64, id 55633, offset 0, flags [DF], proto UDP (17), length 72)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 43871+ PTR? 100.1.168.192.in-addr.arpa. (44)
+23:30:31.206402 IP (tos 0x0, ttl 62, id 60335, offset 0, flags [none], proto UDP (17), length 107)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 43871 NXDomain* 0/1/0 (79)
+23:30:31.244556 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 192.168.1.100 tell maks-Lenovo-IdeaPad-Z510, length 28
+23:30:31.245486 ARP, Ethernet (len 6), IPv4 (len 4), Reply 192.168.1.100 is-at 00:08:9b:d5:de:df (oui Unknown), length 46
+23:30:31.245500 IP (tos 0x0, ttl 1, id 63455, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.45622 > 192.168.1.100.hostmon: Flags [S], cksum 0x1851 (correct), seq 2049799010, win 29200, options [mss 1460,sackOK,TS val 1279165 ecr 0,nop,wscale 7], length 0
+23:30:31.247045 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    192.168.1.100.hostmon > maks-Lenovo-IdeaPad-Z510.45622: Flags [R.], cksum 0x7701 (correct), seq 0, ack 2049799011, win 0, length 0
+23:30:31.249920 IP (tos 0x0, ttl 64, id 55636, offset 0, flags [DF], proto UDP (17), length 72)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 60663+ PTR? 105.1.168.192.in-addr.arpa. (44)
+23:30:31.254124 IP (tos 0x0, ttl 62, id 60333, offset 0, flags [none], proto UDP (17), length 107)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 60663 NXDomain* 0/1/0 (79)
+23:30:31.418466 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 192.168.1.105 tell maks-Lenovo-IdeaPad-Z510, length 28
+23:30:31.496919 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 192.168.1.105 tell 192.168.1.102, length 46
+23:30:31.749268 IP (tos 0x0, ttl 64, id 55654, offset 0, flags [DF], proto UDP (17), length 72)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 31721+ PTR? 102.1.168.192.in-addr.arpa. (44)
+23:30:31.772090 IP (tos 0x0, ttl 62, id 60333, offset 0, flags [none], proto UDP (17), length 107)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 31721 NXDomain* 0/1/0 (79)
+23:30:31.772395 IP (tos 0x0, ttl 1, id 60053, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.39178 > 192.168.1.102.hostmon: Flags [S], cksum 0x652d (correct), seq 1233481684, win 29200, options [mss 1460,sackOK,TS val 1279297 ecr 0,nop,wscale 7], length 0
+23:30:32.418309 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 78)
+    192.168.1.100.netbios-ns > 192.168.1.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+23:30:32.418493 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 78)
+    192.168.1.100.netbios-ns > 192.168.1.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+23:30:32.438328 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 192.168.1.105 tell maks-Lenovo-IdeaPad-Z510, length 28
+23:30:32.516945 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 192.168.1.105 tell 192.168.1.102, length 46
+23:30:32.725291 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 172.25.194.254 tell 172.25.194.205, length 46
+23:30:32.985784 IP (tos 0x0, ttl 64, id 55761, offset 0, flags [DF], proto UDP (17), length 73)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 33222+ PTR? 254.194.25.172.in-addr.arpa. (45)
+23:30:32.994127 IP (tos 0x0, ttl 62, id 60333, offset 0, flags [none], proto UDP (17), length 108)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 33222 NXDomain* 0/1/0 (80)
+23:30:33.046320 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has gateway tell maks-Lenovo-IdeaPad-Z510, length 28
+23:30:33.047226 ARP, Ethernet (len 6), IPv4 (len 4), Reply gateway is-at b0:48:7a:e8:11:16 (oui Unknown), length 28
+23:30:33.161193 IP (tos 0x0, ttl 1, id 5393, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.41760 > 172.25.194.254.hostmon: Flags [S], cksum 0x1896 (correct), seq 3119027085, win 29200, options [mss 1460,sackOK,TS val 1279644 ecr 0,nop,wscale 7], length 0
+23:30:33.162475 IP (tos 0xc0, ttl 64, id 5428, offset 0, flags [none], proto ICMP (1), length 88)
+    gateway > maks-Lenovo-IdeaPad-Z510: ICMP time exceeded in-transit, length 68
+	IP (tos 0x0, ttl 1, id 5393, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.41760 > 172.25.194.254.hostmon: Flags [S], cksum 0x1896 (correct), seq 3119027085, win 29200, options [mss 1460,sackOK,TS val 1279644 ecr 0,nop,wscale 7], length 0
+23:30:33.167077 IP (tos 0x0, ttl 64, id 55781, offset 0, flags [DF], proto UDP (17), length 73)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 15786+ PTR? 205.194.25.172.in-addr.arpa. (45)
+23:30:33.171291 IP (tos 0x0, ttl 62, id 60334, offset 0, flags [none], proto UDP (17), length 108)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 15786 NXDomain* 0/1/0 (80)
+23:30:33.352748 IP (tos 0x0, ttl 1, id 63014, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.59242 > 172.25.194.205.hostmon: Flags [S], cksum 0xbcc8 (correct), seq 4094652650, win 29200, options [mss 1460,sackOK,TS val 1279692 ecr 0,nop,wscale 7], length 0
+23:30:33.354537 IP (tos 0xc0, ttl 64, id 5429, offset 0, flags [none], proto ICMP (1), length 88)
+    gateway > maks-Lenovo-IdeaPad-Z510: ICMP time exceeded in-transit, length 68
+	IP (tos 0x0, ttl 1, id 63014, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.59242 > 172.25.194.205.hostmon: Flags [S], cksum 0xbcc8 (correct), seq 4094652650, win 29200, options [mss 1460,sackOK,TS val 1279692 ecr 0,nop,wscale 7], length 0
+23:30:33.462271 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 192.168.1.105 tell maks-Lenovo-IdeaPad-Z510, length 28
+23:30:34.261625 IP (tos 0x0, ttl 1, id 57981, offset 0, flags [none], proto IGMP (2), length 28)
+    172.25.210.23 > all-systems.mcast.net: igmp query v2
+23:30:34.261644 IP (tos 0x0, ttl 1, id 57981, offset 0, flags [none], proto IGMP (2), length 28)
+    172.25.210.23 > all-systems.mcast.net: igmp query v2
+23:30:34.360748 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 78)
+    192.168.1.100.netbios-ns > 192.168.1.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+23:30:34.360761 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 211)
+    192.168.1.100.netbios-dgm > 192.168.1.255.netbios-dgm: NBT UDP PACKET(138)
+23:30:35.033869 IP (tos 0x0, ttl 64, id 56013, offset 0, flags [DF], proto UDP (17), length 68)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 57893+ PTR? 1.0.0.224.in-addr.arpa. (40)
+23:30:35.084808 IP (tos 0x0, ttl 62, id 60333, offset 0, flags [none], proto UDP (17), length 103)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 57893 1/0/0 1.0.0.224.in-addr.arpa. PTR all-systems.mcast.net. (75)
+23:30:35.089053 IP (tos 0x0, ttl 64, id 56019, offset 0, flags [DF], proto UDP (17), length 72)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 1990+ PTR? 23.210.25.172.in-addr.arpa. (44)
+23:30:35.092699 IP (tos 0x0, ttl 62, id 60334, offset 0, flags [none], proto UDP (17), length 107)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 1990 NXDomain* 0/1/0 (79)
+23:30:35.241391 IP (tos 0x0, ttl 1, id 14996, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.35720 > 172.25.210.23.hostmon: Flags [S], cksum 0x61e8 (correct), seq 1483387440, win 29200, options [mss 1460,sackOK,TS val 1280164 ecr 0,nop,wscale 7], length 0
+23:30:35.242453 IP (tos 0xc0, ttl 64, id 5430, offset 0, flags [none], proto ICMP (1), length 88)
+    gateway > maks-Lenovo-IdeaPad-Z510: ICMP time exceeded in-transit, length 68
+	IP (tos 0x0, ttl 1, id 14996, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.35720 > 172.25.210.23.hostmon: Flags [S], cksum 0x61e8 (correct), seq 1483387440, win 29200, options [mss 1460,sackOK,TS val 1280164 ecr 0,nop,wscale 7], length 0
+23:30:36.104626 IP (tos 0x0, ttl 1, id 24049, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    192.168.1.110 > 224.0.0.251: igmp v2 report 224.0.0.251
+23:30:36.510410 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 172.25.69.254 tell 172.25.69.205, length 46
+23:30:36.510422 IP (tos 0x0, ttl 1, id 2168, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    192.168.1.102 > 224.0.0.252: igmp v2 report 224.0.0.252
+23:30:36.886314 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 192.168.1.102 tell maks-Lenovo-IdeaPad-Z510, length 28
+23:30:36.889194 ARP, Ethernet (len 6), IPv4 (len 4), Reply 192.168.1.102 is-at 6c:f0:49:50:4a:6c (oui Unknown), length 46
+23:30:37.079597 IP (tos 0x0, ttl 64, id 56248, offset 0, flags [DF], proto UDP (17), length 70)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 37878+ PTR? 251.0.0.224.in-addr.arpa. (42)
+23:30:37.082338 IP (tos 0x0, ttl 62, id 60333, offset 0, flags [none], proto UDP (17), length 127)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 37878 NXDomain 0/1/0 (99)
+23:30:37.124623 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 172.25.181.254 tell 172.25.181.22, length 46
+23:30:37.238762 IP (tos 0x0, ttl 64, id 56279, offset 0, flags [DF], proto UDP (17), length 72)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 64221+ PTR? 110.1.168.192.in-addr.arpa. (44)
+23:30:37.244488 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 192.168.1.110 tell maks-Lenovo-IdeaPad-Z510, length 28
+23:30:37.247834 IP (tos 0x0, ttl 62, id 60334, offset 0, flags [none], proto UDP (17), length 107)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 64221 NXDomain* 0/1/0 (79)
+23:30:37.247859 ARP, Ethernet (len 6), IPv4 (len 4), Reply 192.168.1.110 is-at 94:de:80:08:30:a1 (oui Unknown), length 46
+23:30:37.247871 IP (tos 0x0, ttl 1, id 18877, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.37378 > 192.168.1.110.hostmon: Flags [S], cksum 0xf34a (correct), seq 1774175012, win 29200, options [mss 1460,sackOK,TS val 1280665 ecr 0,nop,wscale 7], length 0
+23:30:37.497618 IP (tos 0x0, ttl 64, id 56304, offset 0, flags [DF], proto UDP (17), length 72)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 36469+ PTR? 254.69.25.172.in-addr.arpa. (44)
+23:30:37.503998 IP (tos 0x0, ttl 62, id 60333, offset 0, flags [none], proto UDP (17), length 107)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 36469 NXDomain* 0/1/0 (79)
+23:30:37.679978 IP (tos 0x0, ttl 1, id 6931, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.51816 > 172.25.69.254.hostmon: Flags [S], cksum 0x3e8d (correct), seq 3904344085, win 29200, options [mss 1460,sackOK,TS val 1280774 ecr 0,nop,wscale 7], length 0
+23:30:37.682396 IP (tos 0xc0, ttl 64, id 5431, offset 0, flags [none], proto ICMP (1), length 88)
+    gateway > maks-Lenovo-IdeaPad-Z510: ICMP time exceeded in-transit, length 68
+	IP (tos 0x0, ttl 1, id 6931, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.51816 > 172.25.69.254.hostmon: Flags [S], cksum 0x3e8d (correct), seq 3904344085, win 29200, options [mss 1460,sackOK,TS val 1280774 ecr 0,nop,wscale 7], length 0
+23:30:37.684109 IP (tos 0x0, ttl 64, id 56319, offset 0, flags [DF], proto UDP (17), length 72)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 64314+ PTR? 205.69.25.172.in-addr.arpa. (44)
+23:30:37.687550 IP (tos 0x0, ttl 62, id 60334, offset 0, flags [none], proto UDP (17), length 107)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 64314 NXDomain* 0/1/0 (79)
+23:30:37.849403 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 172.25.77.254 tell 172.25.77.1, length 46
+23:30:37.873933 IP (tos 0x0, ttl 1, id 62998, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.49832 > 172.25.69.205.hostmon: Flags [S], cksum 0x2021 (correct), seq 567967008, win 29200, options [mss 1460,sackOK,TS val 1280822 ecr 0,nop,wscale 7], length 0
+23:30:37.875168 IP (tos 0xc0, ttl 64, id 5432, offset 0, flags [none], proto ICMP (1), length 88)
+    gateway > maks-Lenovo-IdeaPad-Z510: ICMP time exceeded in-transit, length 68
+	IP (tos 0x0, ttl 1, id 62998, offset 0, flags [DF], proto TCP (6), length 60)
+    maks-Lenovo-IdeaPad-Z510.49832 > 172.25.69.205.hostmon: Flags [S], cksum 0x2021 (correct), seq 567967008, win 29200, options [mss 1460,sackOK,TS val 1280822 ecr 0,nop,wscale 7], length 0
+23:30:37.877717 IP (tos 0x0, ttl 64, id 56331, offset 0, flags [DF], proto UDP (17), length 70)
+    maks-Lenovo-IdeaPad-Z510.57527 > gateway.domain: 52105+ PTR? 252.0.0.224.in-addr.arpa. (42)
+23:30:37.880777 IP (tos 0x0, ttl 62, id 60335, offset 0, flags [none], proto UDP (17), length 127)
+    gateway.domain > maks-Lenovo-IdeaPad-Z510.57527: 52105 NXDomain 0/1/0 (99)
+
